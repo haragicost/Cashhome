@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CashHome Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CashHome</h1>
+    <nav>
+      <a href="#">Dashboard</a>
+      <a href="#">Tasks</a>
+      <a href="#">Earnings</a>
+      <a href="#">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="stats">
+      <div class="card">
+        <h2>Tasks Done</h2>
+        <p>10</p>
+      </div>
+      <div class="card">
+        <h2>Total Earnings</h2>
+        <p>5,000 RWF</p>
+      </div>
+    </section>
+
+    <section class="welcome">
+      <h2>Welcome to Your Dashboard</h2>
+      <p>Check your tasks and earnings here. Keep working to earn more!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CashHome. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #2e86de;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1;
+}
+
+.welcome {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #eee;
+  color: #555;
+}
+
+
+
+
